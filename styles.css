@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+@media only screen and (max-width: 991px) {
+  .social-icons {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body,
+  h1,
+  p {
+    text-align: center !important;
+  }
+
+  img[src="./images/hero.png"] {
+    margin-bottom: 20px;
+  }
+  p {
+    margin: auto;
+  }
+}
+
+html,
+body {
+  background-color: #202020;
+  padding-top: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.fade {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  height: fit-content;
+  font-weight: 700 !important;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  height: fit-content;
+  font-weight: 500 !important;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h3 {
+  height: fit-content;
+  font-weight: 300 !important;
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  font-size: 22px;
+  height: fit-content;
+}
+
+.material-icons {
+  background-color: transparent;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.nav-item,
+.nav-link {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  opacity: 70%;
+  transition: 0.3s ease;
+  padding-left: 17px !important;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  transition: 0.3s ease;
+}
+
+.btn-fill {
+  background-color: #0077ff;
+  border-radius: 50px;
+  border: none;
+  padding: 5px 15px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.btn-fill:hover {
+  background-color: #0057bb;
+  transition: 0.3s ease;
+}
+
+.section-hero {
+  display: flex;
+  min-height: 800px;
+  padding: 70px 0px;
+  background-color: #f6f6f6;
+}
+
+.social-box {
+  background-color: #ebebeb;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.social-icons {
+  width: 50px;
+  padding: 15px 2px;
+  transition: 0.3s ease;
+  opacity: 80%;
+}
+
+.social-icons:hover {
+  transform: scale(1.4);
+  opacity: 100%;
+}
+
+.text-hero {
+  font-size: 50px;
+  max-width: 500px;
+}
+
+.section-hero-2 {
+  color: #f6f6f6;
+}
+
+.box-hero-1 {
+  background-color: #1d88ec;
+}
+
+.box-hero-2 {
+  background-color: #3a9cf8;
+}
+
+.box-hero-3 {
+  background-color: #1d88ec;
+}
+
+.section-why-us {
+  padding: 200px 0px;
+  background-color: #f6f6f6;
+}
+
+.why-us-box {
+  padding: 50px;
+  background-color: white;
+  filter: drop-shadow(5px 5px 15px #e9e9e991);
+  border-radius: 10px;
+  margin: 20px 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.section-myeducare {
+  padding: 200px 0px;
+  background-color: #202020;
+}
+
+.myeducare-logo {
+  padding-bottom: 10px;
+}
+
+.icon-apps {
+  margin: 0px 20px;
+  width: 100%;
+  max-width: 70px;
+  border-radius: 15px;
+}
+
+.section-info {
+  background-color: #0077ff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
