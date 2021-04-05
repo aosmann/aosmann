@@ -18,7 +18,3 @@ $(window).on("load",function() {
 
  if ($(this).css("opacity")==1) {$(this).fadeTo(10,0);}
 
-
-
-
- 
